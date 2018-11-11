@@ -1,0 +1,10 @@
+@import 'variable.css';
+@import 'fonts.css';
+@import '_btn.css';
+@import 'base.css';
+@import '_forms.css'; 
+
+@import '_firstBlock.css';
+@import '_offerBlock.css';
+@import '_startBlock.css';
+@import '_footer.css'; 

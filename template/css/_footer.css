@@ -1,0 +1,19 @@
+.head-footer {
+    background: var(--footer-bg-color);
+    color: var(--footer-color);
+    font-size: 0.8em;
+    text-align: center;
+}
+.footer-text {
+    font-size: 0.875em;
+    padding: 0 6.1em;
+    padding-bottom: 1.3em;
+    font-family: "OpenSans-Regular";
+    line-height: 1.34em;
+}
+
+@media(max-width: 1024px) {
+    .footer-text {
+        padding: 0.4em;
+    }
+}

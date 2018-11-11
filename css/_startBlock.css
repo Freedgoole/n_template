@@ -1,0 +1,13 @@
+.start-block {
+    background: url('../img/bgthree.png') no-repeat;
+    text-align: center;
+    padding-bottom: 2.5em;
+}
+@media(max-width: 1024px) {
+    .title_bold {
+        font-size: 1.6em;
+    }
+    section.base_section.offer-block > div > div > div:nth-child(3) > div {
+        padding: 0;
+    }
+}

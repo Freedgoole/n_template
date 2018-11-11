@@ -1,0 +1,141 @@
+.form .not_valid {
+    background-color: rosybrown;
+    border: none;
+}
+.novalid_msg {
+    color: #fff;
+}
+.form-head_wrapper .form {
+    display: flex;
+    flex-direction: column;
+}
+.form-title_head {
+    color: #ffffff;
+}
+.form-title_txt {
+    color: #ffffff;
+}
+.form input, .form select {
+    box-sizing: border-box;
+    width: 100%;
+    /*margin: 0.625em 0;
+    */height: 50px;
+    border-radius: 0;
+    padding: 0 50px;
+    -webkit-appearance:none;
+    font-size: 1em;
+    background-color: #fff;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+.input_row, .input_email, .input_lastname {
+    position: relative;
+    margin: 0.6em 0;
+}
+[data-type="lastname"] {
+    margin-top: -0.6em;
+}
+[data-type="email"] {
+    margin-top: -0.5em;
+}
+[data-type="tel"] {
+    margin-top: -0.6em;
+}
+.input_country select {
+    margin-top: -0.6em;
+    position: relative;
+}
+.input_country::before {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 30px;
+    height: 18px;
+    z-index: 1;
+    background: url('../img/arrowselect.png') no-repeat #fff;
+    top: 9px;
+    right: 4px;
+}
+.input_country {
+    position: relative;
+    /* z-index: 2; */
+}
+.input_email {
+    position: relative;
+}
+.input_email::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url('../img/iconformemail.png') no-repeat;
+    top: 9px;
+    left: 16px;
+}
+.input_lastname::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url('../img/iconformname.png') no-repeat;
+    top: 7px;
+    left: 16px; 
+}
+.input_row::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url('../img/iconformname.png') no-repeat;
+    top: 16px;
+    left: 16px;
+}
+.input_country::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url('../img/iconformlocation.png') no-repeat;
+    top: 6px;
+    left: 20px;
+}
+.form {
+    margin: 1.1em 0 0.8em 0;
+}
+.form .input_tel input {
+    padding-left: 130px;
+}
+.input_tel  {
+    position: relative;
+}
+.input_tel::after {
+    content: '+ 40000';
+    font-size: 1em;
+    font-family: "OpenSans-Regular";  
+    padding-left: 30px;
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    background: url('../img/iconformtel.png') no-repeat;
+    top: 4px;
+    left: 18px;
+}
+.input_tel::before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    
+    height: 55px;
+    display: block;
+    top: -9px;
+    left: 120px;
+    background: black;
+}
+.btn_form {
+    margin: 0.93em 0;
+    padding: 0.55em 0;
+    font-size: 1.4em;
+    letter-spacing: 0.8px;
+}

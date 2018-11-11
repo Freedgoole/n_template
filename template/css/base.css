@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: var(--head-font);
+}
+.container {
+    max-width: 1080px;
+    padding: 0 0.8em; 
+    margin: 0 auto;
+    height: 100%;
+}
+
+.title_bold {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "OpenSans-ExtraBold";
+    font-size: 1.8em;
+    font-weight: 800;
+}
+.title_regular {
+    color: black;
+    font-size: 1.9em;
+    letter-spacing: -1.18px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "OpenSans-ExtraBold";
+}
+.base_section {
+    padding: 3em 0; 
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.wrapper_col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.txt_bld {
+    font-family: "OpenSans-ExtraBold";
+}

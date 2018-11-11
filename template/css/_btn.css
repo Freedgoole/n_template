@@ -1,0 +1,51 @@
+.btn {
+    background-image: linear-gradient(to bottom, #c9fc33, #bdf033, #b1e434, #a5d933, #9acd33);
+    text-transform: uppercase;
+    color: black;
+    -webkit-box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.41);
+    -moz-box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.41);
+    box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.41);
+    border: none;
+    border-top: 1px solid #fff;
+    font-family: "OpenSans-ExtraBold";
+    text-shadow: 0px 1px 0 #fff;
+}
+.btn_big {
+    width: 510px;
+    height: 96px;
+    font-size: 2.3em;
+    letter-spacing: -2px;
+    position: relative;
+    line-height: 7px;
+    margin: 0.6em 0;
+   
+    position: relative;
+}
+.btn_big::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 35%;
+    right: 7.6%;
+    background-image: url('../img/arrow.png');
+    height: 30px;
+    width: 20px;
+    
+}
+.btn_form {
+    padding: 1em 0;
+    font-size: 1.4em;
+    -webkit-box-shadow: 0px 3px 0px 0px #4d661a;
+    -moz-box-shadow: 0px 3px 0px 0px #4d661a;
+    box-shadow: 0px 3px 0px 0px #4d661a;
+}
+@media(max-width: 1024px) {
+    .btn_big {
+        width: 100%;
+        height: 60px;
+        font-size: 1.5em;
+    }
+    .btn_big::after {
+        top: 28%;
+    }
+}
