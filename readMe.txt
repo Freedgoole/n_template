@@ -1,5 +1,3 @@
-Добрый день!%)
-
 emals в массиве
    "freedgoole@gmail.com", "test@test.com", "Irix@gmail.com", "Linux@ranbler.ee"
     в случ. совпадение или нет, появиться информационное окно вверху страницы;
